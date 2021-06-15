@@ -1,0 +1,10 @@
+<div class="login-page">
+    <div class="form">        
+        <form [formGroup]='miFormulario'>
+            <input type="text" placeholder="Usuario" formControlName="usuario"/>
+            <input type="password" placeholder="Contraseña" formControlName="contrasena"/>
+            <button (click)='login()'>Iniciar sesión</button>
+            <p class="message">¿Aún no está registrado? <a href="#">Registrarse.</a></p>
+        </form>
+    </div>
+</div>
